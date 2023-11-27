@@ -64,6 +64,7 @@ h1{
 
 #menu > li {
 margin-bottom: 1rem;
+padding: 0 30px;
 }
 
 .active {
@@ -84,10 +85,16 @@ nav {
 
 /*MAIN*/
 main {
-    background-color: lightblue;
     /*make main element push down footer*/
     flex: 1 0 auto;
     margin-top: 38px;
+}
+
+/*Hero section*/
+#hero {
+    height: 400px;
+    width: 100%;
+    background: url("../images/C-label.jpg") no-repeat center center/cover;
 }
 
 
