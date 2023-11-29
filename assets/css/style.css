@@ -131,45 +131,47 @@ hr {
     margin: auto;
 }
 
-/*hand made section*/
+/*HAND MADE SECTION*/
 #circle-cover-bg-1 {
     background: url('../images/crocheting1.jpg') no-repeat top center / cover;
     height: 25vw;
     width: 25vw;
     margin-bottom: 20px;
     border-radius: 50%;
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 #handcrafted-container {
     display: flex;
-    flex-direction: row;     
-    align-items: center;     
+    flex-direction: row;
+    align-items: center;
     padding-left: 10%;
     padding-right: 10%;
 }
 
 #personalised-handcrafted {
-    flex: 2;                    /* make 2 to allocate more space to the text within the handcrafted contatiner */
+    flex: 2;
+    /* make 2 to allocate more space to the text within the handcrafted contatiner */
     padding-top: 30px;
 }
 
 #handcrafted-image {
     flex: 1;
     display: flex;
-    justify-content: flex-end;            /* Align to the right */
+    justify-content: flex-end;
+    /* Align to the right */
 }
 
-/*Handcrafted Section on phone screens <768px*/
+/*HANDMADE SECTION ON PHONE SCREEN SIZE <768px*/
 @media screen and (max-width: 768px) {
     #handcrafted-container {
         flex-direction: column;
         text-align: center;
-        align-items: center;     
+        align-items: center;
     }
 
-    #personalised-handcrafted, 
+    #personalised-handcrafted,
     #handcrafted-image {
         margin-right: 0;
     }
@@ -186,7 +188,7 @@ hr {
 }
 
 
-/*yarn section*/
+/*YARN SECTION*/
 #circle-cover-bg-2 {
     background: url('../images/yarn2.jpg') no-repeat top center / cover;
     height: 25vw;
@@ -215,20 +217,21 @@ hr {
     padding-top: 30px;
 }
 
-/*Yarn Section on phone screens <768px*/
-@media screen and (max-width: 768px){
+/*YARN SECTION ON PHONE SCREENS <768px*/
+@media screen and (max-width: 768px) {
     #yarn-container {
         flex-direction: column;
-        text-align: center;  
+        text-align: center;
     }
 
-    #yarn-image{
+    #yarn-image {
         text-align: center;
         margin-top: 20px;
-        order: 2;                /* Makes the image appear below the text */
+        order: 2;
+        /* Makes the image appear below the text */
     }
 
-    #personalised-high-quality-thread{
+    #personalised-high-quality-thread {
         text-align: center;
     }
 
@@ -244,7 +247,7 @@ hr {
 }
 
 
-/*Style section*/
+/*STYLE SECTION*/
 #circle-cover-bg-3 {
     background: url('../images/style1.jpg') no-repeat top center / cover;
     height: 25vw;
@@ -261,6 +264,7 @@ hr {
     align-items: center;
     padding-left: 10%;
     padding-right: 10%;
+    padding-bottom: 20px;
 }
 
 #personalised-style {
@@ -274,7 +278,7 @@ hr {
     justify-content: flex-end;
 }
 
-/* Style Section on phone screens <768px */
+/* STYLE SECTION ON PHONE SCREEN <768px */
 @media screen and (max-width: 768px) {
     #style-container {
         flex-direction: column;
@@ -299,62 +303,123 @@ hr {
 
 
 
-/*FOOTER*/
+/*CSS FOR FOOTER*/
+
+footer {
+    background-color: #3a3a3a;
+    color: white;
+    padding: 25px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.footer-column {
+    flex: 1;
+    margin: 0 20px;
+    max-width: 300px;
+}
+
+h3 {
+    border-bottom: 1.5px solid #58d3f8;
+    padding-bottom: 10px;
+}
+
+p {
+    padding-top: 5px;
+    line-height: 1.6;
+}
+
+.newsletter-signup {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-signup input {
+    flex: 1;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.newsletter-signup button {
+    background-color: #58d3f8;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    color: white;
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: white;
 }
 
-/*Media query: tablets and larger (768px and up)*/
-@media screen and (min-width: 768px) {
-
-    /*header*/
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
+@media screen and (max-width: 768px) {
+    .footer-column {
+        flex: 1 0 100%;
+        /* Make columns take full width on smaller screens */
     }
 
-    #menu {
-        display: flex;
+    /* END OF FOOTER CSS */
+
+
+
+    /*Media query: tablets and larger (768px and up)*/
+    @media screen and (min-width: 768px) {
+
+        /*header*/
+        nav {
+            display: block;
+            position: relative;
+            box-shadow: none;
+            width: fit-content;
+            padding-right: 1rem;
+        }
+
+        #menu {
+            display: flex;
+        }
+
+        #menu>li {
+            padding-left: 1 rem;
+        }
+
+        .nav-toggle-label {
+            display: none;
+        }
+
+        #logo {
+            font-size: 280%;
+            line-height: 75px;
+            margin: 0 0.5rem;
+        }
+
+        /*Main content*/
+        main {
+            /*push main content down to accomodate larger header*/
+            margin-top: 79px;
+        }
     }
 
-    #menu>li {
-        padding-left: 1 rem;
+    /*Large devices (laptops and desktops. 992px and up)*/
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
     }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
-    }
-
-    /*Main content*/
-    main {
-        /*push main content down to accomodate larger header*/
-        margin-top: 79px;
-    }
-}
-
-/*Large devices (laptops and desktops. 992px and up)*/
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-    }
-}
-
