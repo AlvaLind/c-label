@@ -92,10 +92,34 @@ main {
 
 /*Hero section*/
 #hero {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: url("../images/C-label.jpg") no-repeat center center/cover;
 }
+
+/* ORDER BUTTON */
+#button-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;        /* Center button horizontally */
+    align-items: center;        /* Center button vertically */
+    text-decoration: none;      /* Remove the underline created by <a> tag */
+    font-weight: bold;
+}
+
+#quote-button {
+    padding: 20px;
+    color:rgb(36, 39, 39);
+    background-color: #c8d9ed;
+    box-shadow: -13px 11px 10px rgba(0,0,0,33%);       /* Add a shadow to the button */    
+}
+
+#quote-button:hover {
+    transform: scale(1.1);
+}
+
 
 /*Personalised (info) section*/
 
@@ -278,6 +302,52 @@ hr {
     justify-content: flex-end;
 }
 
+
+/*ABOUT US*/
+#circle-cover-bg-4 {
+    background: url('../images/profile-image.jpg') no-repeat top center / cover;
+    height: 50vw;
+    width: 50vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#about-us-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 38%;
+    padding-bottom: 20px;
+}
+
+.about-us-image {
+    flex: 2;
+    padding-top: 30px;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#about-clabel {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#about-cilla {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 /* STYLE SECTION ON PHONE SCREEN <768px */
 @media screen and (max-width: 768px) {
     #style-container {
@@ -326,7 +396,7 @@ footer {
 }
 
 h3 {
-    border-bottom: 1.5px solid #58d3f8;
+    border-bottom: 1.5px solid #c8d9ed;
     padding-bottom: 10px;
 }
 
@@ -348,8 +418,8 @@ p {
 }
 
 .newsletter-signup button {
-    background-color: #58d3f8;
-    color: white;
+    background-color: #c8d9ed;
+    color: #3a3a3a;
     padding: 8px;
     border: none;
     cursor: pointer;
