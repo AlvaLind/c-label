@@ -302,6 +302,57 @@ hr {
     justify-content: flex-end;
 }
 
+/*photo carousel*/
+
+
+/*Order Now*/
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    /* Add margin at the top to prevent content from being covered by the header */
+    display: flex;
+    /* Enable flex properties for child elements */
+    flex-direction: column;
+}
+
+#order-now-heading {
+    padding-top: 50px;
+    padding-left: 10%;
+}
+
+#get-a-quote-form {
+    color: #3a3a3a;
+    padding: 30px;
+    padding bottom: 100px;
+}
+
+#get-a-quote-form>h2 {
+    margin-bottom: 20px;
+}
+
+.text-input {
+    width: 50%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #3a3a3a;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #c8d9ed;
+    color: #3a3a3a;
+}
 
 /*ABOUT US*/
 #circle-cover-bg-4 {
@@ -318,7 +369,7 @@ hr {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 38%;
+    justify-content: center;
     padding-bottom: 20px;
 }
 
@@ -346,6 +397,16 @@ hr {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+#about-cilla1 {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 /* STYLE SECTION ON PHONE SCREEN <768px */

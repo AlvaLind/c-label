@@ -55,8 +55,43 @@
         </ul>
       </nav>
     </header>
+<!--FORM-->
+<main id="main-quote"> 
+    <h2 id="order-now-heading">Get Your Quote Now</h2>
+    <section id="get-a-quote">
+        <form id="get-a-quote-form" method="POST" action="https://formdump.codeinstitute.net">
+            <label for="full_name"><i class="fa-regular fa-user"></i>Full Name</label>
+            <input type="text" name="full_name" id="full_name" class="text-input" required>
+            <br>
+            <label for="address"><i class="fa-solid fa-location-pin"></i>Address</label>
+            <input type="text" name="address" id="address" class="text-input" required>
+            <br>
+            <label for="email_address"><i class="fa-regular fa-envelope"></i>Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <br>
 
-    <main>text</main>
+            <!--SELECT COLOUR OPTION-->
+            <label for="color"><i class="fa-solid fa-palette"></i>Choose a Color:</label>
+            <select id="color" name="color">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="orange">Orange</option>
+                <option value="purple">Purple</option>
+                <option value="pink">Pink</option>
+                <option value="brown">Brown</option>
+                <option value="grey">Grey</option>
+                <option value="black">Black</option>
+                <option value="white">White</option>
+            </select>
+            <br>
+            
+            <!--SUBMIT BUTTON-->
+            <button type="submit" class="order-button">Submit your order!</button>
+        </form>
+    </section>
+</main>
 
     <footer>
         <div class="footer-container">
