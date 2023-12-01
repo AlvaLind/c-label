@@ -55,89 +55,137 @@
         </ul>
       </nav>
     </header>
-<!--FORM-->
-<main id="main-quote"> 
-    <h2 id="order-now-heading">Get Your Quote Now</h2>
-    <section id="get-a-quote">
-        <form id="get-a-quote-form" method="POST" action="https://formdump.codeinstitute.net">
-            <label for="full_name"><i class="fa-regular fa-user"></i>Full Name</label>
-            <input type="text" name="full_name" id="full_name" class="text-input" required>
-            <br>
-            <label for="address"><i class="fa-solid fa-location-pin"></i>Address</label>
-            <input type="text" name="address" id="address" class="text-input" required>
-            <br>
-            <label for="email_address"><i class="fa-regular fa-envelope"></i>Email Address</label>
-            <input type="email" name="email_address" id="email_address" class="text-input" required>
-            <br>
+    <!--FORM-->
+    <main id="main-quote">
+      <h2 id="order-now-heading">Get Your Quote Now</h2>
+      <section id="get-a-quote">
+        <form
+          id="get-a-quote-form"
+          method="POST"
+          action="https://formdump.codeinstitute.net"
+        >
+          <label for="full_name"
+            ><i class="fa-regular fa-user"></i> Full Name</label
+          >
+          <input
+            type="text"
+            name="full_name"
+            id="full_name"
+            class="text-input"
+            required
+          />
+          <br />
+          <label for="address"
+            ><i class="fa-solid fa-location-pin"></i> Address</label
+          >
+          <input
+            type="text"
+            name="address"
+            id="address"
+            class="text-input"
+            required
+          />
+          <br>
+          <label for="email_address"><i class="fa-regular fa-envelope"></i> Email Address</label>
+          <input
+            type="email"
+            name="email_address"
+            id="email_address"
+            class="text-input"
+            required
+          />
+        <br />
 
-            <!--SELECT COLOUR OPTION-->
-            <label for="color"><i class="fa-solid fa-palette"></i>Choose a Color:</label>
-            <select id="color" name="color">
-                <option value="red">Red</option>
-                <option value="blue">Blue</option>
-                <option value="green">Green</option>
-                <option value="yellow">Yellow</option>
-                <option value="orange">Orange</option>
-                <option value="purple">Purple</option>
-                <option value="pink">Pink</option>
-                <option value="brown">Brown</option>
-                <option value="grey">Grey</option>
-                <option value="black">Black</option>
-                <option value="white">White</option>
-            </select>
-            <br>
-            
-            <!--SUBMIT BUTTON-->
-            <button type="submit" class="order-button">Submit your order!</button>
+          <!--SELECT COLOUR OPTION-->
+        <label for="color">
+        <i class="fa-solid fa-palette"></i> Choose a Color</label>
+        <select id="color" name="color">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+            <option value="orange">Orange</option>
+            <option value="purple">Purple</option>
+            <option value="pink">Pink</option>
+            <option value="brown">Brown</option>
+            <option value="grey">Grey</option>
+            <option value="black">Black</option>
+            <option value="white">White</option>
+        </select>
+        <br>
+        <br>
+        <!--SELECT STYLE OPTION-->
+        <label for="style"> <i class="fa-solid fa-bag-shopping"></i> Choose a Style</label>
+        <select id="style" name="style">
+            <option value="Celia">Celia Bag</option>
+            <option value="Cara">Cara Bag</option>
+            <option value="Chloe">Chloe Bag</option>
+            <option value="Claire">Claire Bag</option>
+        </select>
+        <br>
+
+          <!--SUBMIT BUTTON-->
+          <button type="submit" class="order-button">Submit your order!</button>
         </form>
-    </section>
-</main>
+      </section>
+    </main>
 
     <footer>
-        <div class="footer-container">
-            <div class="footer-column">
-                <h3>Contact Us</h3>
-                <p>Email: info@C-Label.com</p>
-                <p>Call: +4601 234 567</p>
-                <p>Open Hours: 7am - 5pm</p>
-                <p>Mon - Fri</p>
-            </div>
-    
-            <div class="footer-column">
-                <h3>Visit Us</h3>
-                <p>Gothenburg, Sweden</p>
-                <p>Stockholm, Sweden</p>
-                <p>Uppsala, Sweden</p>
-            </div>
-    
-            <div class="footer-column">
-                <h3>Sign up for Newsletter</h3>
-                <p>For the latest on sales, new releases and more</p>
-                <div class="newsletter-signup">
-                    <input type="email" placeholder="Enter your email">
-                    <button type="submit">></button>
-                </div>
-                <ul id="social-networks">
-                    <li>
-                        <a href="https://www.facebook.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Facebook page (opens in a new tab)"><i
-                                class="fa-brands fa-facebook-f"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/c.label.official/?igshid=YTQwZjQ0NmI0OA%3D%3D&fbclid=IwAR3Hqsv79nl7vqH7BNyPtXG84DsS2kfglIhfq1Lv4tfBebgjkKWcGjQNekc"
-                            target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i
-                                class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitter.com" target="_blank" rel="noopener"
-                            aria-label="Visit our Twitter page (opens in a new tab)"><i
-                                class="fa-brands fa-twitter"></i></a>
-                    </li>
-                </ul>
-            </div>
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p>Email: info@c-label.com</p>
+          <p>Call: +4601 234 567</p>
+          <p>Open Hours: 7am - 5pm</p>
+          <p>Mon - Fri</p>
         </div>
-    </footer>
 
+        <div class="footer-column">
+          <h3>Visit Us</h3>
+          <p>Gothenburg, Sweden</p>
+          <p>Stockholm, Sweden</p>
+          <p>Uppsala, Sweden</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Sign up for Newsletter</h3>
+          <p>For the latest on sales, new releases and more</p>
+          <div class="newsletter-signup">
+            <input type="email" placeholder="Enter your email" />
+            <button type="submit">></button>
+          </div>
+          <ul id="social-networks">
+            <li>
+              <a
+                href="https://www.facebook.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/c.label.official/?igshid=YTQwZjQ0NmI0OA%3D%3D&fbclid=IwAR3Hqsv79nl7vqH7BNyPtXG84DsS2kfglIhfq1Lv4tfBebgjkKWcGjQNekc"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.twitter.com"
+                target="_blank"
+                rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <!--Font Awesome kit-->
     <script

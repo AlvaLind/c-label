@@ -313,17 +313,23 @@ main {
     display: flex;
     /* Enable flex properties for child elements */
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:50px;
 }
+       
 
 #order-now-heading {
     padding-top: 50px;
-    padding-left: 10%;
+    padding-bottom:20px;
 }
 
 #get-a-quote-form {
     color: #3a3a3a;
-    padding: 30px;
-    padding bottom: 100px;
+    border: 2px solid #3a3a3a;
+    border-radius: 2px;
+    padding: 20px;
+    background-color: rgb(252, 245, 249);
 }
 
 #get-a-quote-form>h2 {
@@ -339,11 +345,6 @@ main {
     padding: 0 5px;
 }
 
-.radio-buttons {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
 
 .order-button {
     margin-top: 20px;
@@ -352,13 +353,15 @@ main {
     font-size: 100%;
     background-color: #c8d9ed;
     color: #3a3a3a;
+    align-self: center;
+    justify-content: center;
 }
 
 /*ABOUT US*/
 #circle-cover-bg-4 {
     background: url('../images/profile-image.jpg') no-repeat top center / cover;
-    height: 50vw;
-    width: 50vw;
+    height: 300px;
+    width: 300px;
     margin-bottom: 20px;
     border-radius: 50%;
     max-width: 300px;
@@ -409,29 +412,28 @@ main {
     padding-bottom: 50px;
 }
 
-/* STYLE SECTION ON PHONE SCREEN <768px */
-@media screen and (max-width: 768px) {
-    #style-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #style-image {
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    #circle-cover-bg-3 {
-        background: url('../images/style1.jpg') no-repeat top center / cover;
-        height: 60vw;
-        width: 60vw;
-        margin-bottom: 20px;
-        border-radius: 80%;
-        max-width: 250px;
-        max-height: 250px;
-    }
+/* AS SEEN ON INSTAGRAM */
+#insta-head { 
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
+ #carousel {
+     display: flex;
+     overflow: hidden;
+     width: 100%;
+     margin: auto;
+     /* Center the carousel */
+     gap: 5px;
+     padding-bottom: 50px;
+ }
+
+ #carousel img {
+     width: 20%;
+     height: auto;
+     display: block;
+ }
 
 
 /*CSS FOR FOOTER*/
@@ -501,16 +503,32 @@ p {
     color: white;
 }
 
+/* STYLE SECTION ON PHONE SCREEN <768px */
 @media screen and (max-width: 768px) {
-    .footer-column {
-        flex: 1 0 100%;
-        /* Make columns take full width on smaller screens */
+    #style-container {
+        flex-direction: column;
+        text-align: center;
     }
 
-    /* END OF FOOTER CSS */
+    #style-image {
+        text-align: center;
+        margin-top: 20px;
+    }
 
-
-
+    #circle-cover-bg-3 {
+        background: url('../images/style1.jpg') no-repeat top center / cover;
+        height: 60vw;
+        width: 60vw;
+        margin-bottom: 20px;
+        border-radius: 80%;
+        max-width: 250px;
+        max-height: 250px;
+    }
+    .footer-column {
+        flex: 1 0 100%;
+         /* Make columns take full width on smaller screens */
+    }
+}
     /*Media query: tablets and larger (768px and up)*/
     @media screen and (min-width: 768px) {
 
@@ -540,6 +558,7 @@ p {
             line-height: 75px;
             margin: 0 0.5rem;
         }
+        
 
         /*Main content*/
         main {
@@ -547,6 +566,7 @@ p {
             margin-top: 79px;
         }
     }
+
 
     /*Large devices (laptops and desktops. 992px and up)*/
     @media screen and (min-width: 992px) {
