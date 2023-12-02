@@ -306,6 +306,12 @@ hr {
     justify-content: flex-end;
 }
 
+#personalised-style li{
+    padding-bottom: 20px;
+}
+
+
+
 /*Order Now*/
 main {
     flex: 1 0 auto;
@@ -568,10 +574,6 @@ p {
 
     #menu {
         display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1 rem;
     }
 
     .nav-toggle-label {
