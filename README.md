@@ -1,39 +1,135 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+C-LABEL
 
-Welcome,
+The C-LABEL website is a website for customers of the bag company C-Label. 
+On this webiste users can get information about the company and the bags that the company offer. You can also design your own bag in the form to get a quote. There's also the option to sign up for the newsletter down in the footer so users can get information about new drops and sales. The website is targeted towards customers and people who is interested in the brand C-Label.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![image](https://github.com/AlvaLind/portfolio-1/assets/146857078/6db83053-ef34-45e6-983d-c9e3d05e602c)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+Features
+<ul>
+  <li>
+    Navigation <ul>
+      <li>Featured at the top of the page, the navigation shows the brand name in the top left corner and links to the home page</li>
+      <li>The other navigation links are placed to the right: Home, Order Now and About Us. These links to other sites of the website. </li>
+      <li>The navigation is clear about the companys name and where to click to find more info.</li>
+      <li>The Nav is toggled on smaller screens to make it easier to navigate the page </li>
+    </ul>
+  </li>
+  </ul>
+  
+  ![Screenshot 2023-12-02 121705](https://github.com/AlvaLind/portfolio-1/assets/146857078/244a96b9-5c71-473d-985b-e2822a5b9748)
+  ![Screenshot 2023-12-02 121735](https://github.com/AlvaLind/portfolio-1/assets/146857078/eff81857-95e4-4ea0-ad53-863532627230)
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+  <ul>
+      <li>The Header
+      <ul>
+        <li>The Header shows the comapnys logo</li>
+      </ul>
+      </li>
+    </ul>
+    
+      ![Screenshot 2023-12-02 121925](https://github.com/AlvaLind/portfolio-1/assets/146857078/1173621c-7716-4db9-b2d6-5448684fa665)
 
-`python3 -m http.server`
+  <ul>
+      <li>Information 
+      <ul>
+      <li> Information about how the bags are made </li>
+      <li>Information about the yarn </li>
+      <li>Information about the different styles you can choose from </li>
+      </ul>
+      </li>
+  </ul>
+  
+  ![Screenshot 2023-12-02 122236](https://github.com/AlvaLind/portfolio-1/assets/146857078/30fb5a4f-eb49-46ca-a24d-bbfe0ffa6209)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+  <ul>
+      <li> Buttons
+      <ul>
+      <li> Buttons that takes you to the order now form to make it easy to order and push customers to order </li>
+      </ul>
+      </li>
+  </ul>
+  
+      ![Screenshot 2023-12-02 122419](https://github.com/AlvaLind/portfolio-1/assets/146857078/c0c70047-c144-421a-b8ad-82e58b25cd0b)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
 
-`http_server`
+  <ul>
+      <li> As seen on instagram 
+      <ul> 
+      <li> Photos from instagram to show the bags in action </li>
+      <li> Unfortunately, for some reason I could not get the images to work in the deployed project. </li>
+      </ul>
+    </ul>
+    
+      ![Screenshot 2023-12-02 122631](https://github.com/AlvaLind/portfolio-1/assets/146857078/1ae8f82c-c265-460c-b6cb-2d49aba04166)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+      https://8000-alvalind-portfolio-1-h1d79t489t.us2.codeanyapp.com/
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+    <ul>
+      <li> Order now Form
+      <ul>
+      <li> On this site you can fill in a form to get choose the style and colour of the bag to get a quote from the company by email </li>
+      <li> The form collects the full name, address, email and the style preferences.</li>
+      <li> The form is valuable to the company so they can process orders and gain customers </li>
+      </ul>
+      </li>
+    </ul>
+    
+      ![Screenshot 2023-12-02 123207](https://github.com/AlvaLind/portfolio-1/assets/146857078/54c4b609-d456-42f1-b442-b877b8bc0ffe)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
+  <ul>
+    <li>About Us
+    <ul>
+      <li>This site gives the users some more information about the company</li>
+      <li> We introduce the founder of the company with a short text and an image</li>
+    </ul>
+    </li>
+  </ul>
+  
+![Screenshot 2023-12-02 124028](https://github.com/AlvaLind/portfolio-1/assets/146857078/3071d37b-01fc-48cc-8b7b-f6c2368ce63c)
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<ul>
+  <li>Footer
+  <ul>
+    <li>The footer contains contact info like email, phonenumber,openingtimes and adress</li>
+    <li>Users can sign up for a newsletter in the footer by adding your emailadress</li>
+    <li>The footer also contains of icons with links to the social media platsforms instagram, facebook and twiitter</li>
+  </li>
+</ul>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Screenshot 2023-12-02 124632](https://github.com/AlvaLind/portfolio-1/assets/146857078/e5f1081e-36d4-4997-911d-cb36fd1fdff5)
 
----
+Testing
 
-Happy coding!
+<ul>
+  <li>I tested that this page works on Chrome and Safari</li>
+  <li>I have confirmed that this project is responsive, looks good and functions on all standard screens</li>
+  <li>I confirm that the navigation, header, homepage, order now, about us and footer is readable and easy to understand. </li>
+  <li>I can confirm that the form works on both small screens and big screens as well as the sugnup for newsletters in the footer. The subscribe and Order now buttons works</li>
+</ul>
+
+Bugs
+
+<ul>
+  <li>Solved bugs
+  <ul>
+    <li>Found out that I misused  the break tag (br) in an unordered list with using Markup Validation service </li>
+    <li>Solved the misuse of the br by removing it and added padding to the CSS file instead.</li>
+  </ul>
+  </li>
+</ul>
+
+<ul>
+  <li>Unsolved bugs
+  <ul>
+  </li>The photos in the "As seen on instagram" does not show in the deployed project.</li>
+  </ul>
+  </li>
+</ul>
+
+
+
+
+
