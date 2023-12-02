@@ -103,17 +103,21 @@ main {
     padding-bottom: 20px;
     background-color: #fff;
     display: flex;
-    justify-content: center;        /* Center button horizontally */
-    align-items: center;        /* Center button vertically */
-    text-decoration: none;      /* Remove the underline created by <a> tag */
-    
+    justify-content: center;
+    /* Center button horizontally */
+    align-items: center;
+    /* Center button vertically */
+    text-decoration: none;
+    /* Remove the underline created by <a> tag */
+
 }
 
 #quote-button {
     padding: 20px;
-    color:rgb(36, 39, 39);
+    color: rgb(36, 39, 39);
     background-color: #c8d9ed;
-    box-shadow: -13px 11px 10px rgba(0,0,0,33%);       /* Add a shadow to the button */    
+    box-shadow: -13px 11px 10px rgba(0, 0, 0, 33%);
+    /* Add a shadow to the button */
 }
 
 #quote-button:hover {
@@ -315,13 +319,13 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom:50px;
+    padding-bottom: 50px;
 }
-       
+
 
 #order-now-heading {
     padding-top: 50px;
-    padding-bottom:20px;
+    padding-bottom: 20px;
 }
 
 #get-a-quote-form {
@@ -413,10 +417,11 @@ main {
 }
 
 /* AS SEEN ON INSTAGRAM */
-#insta-head { 
+#insta-head {
     display: flex;
     justify-content: center;
     align-content: center;
+    padding-top: 50px;
 }
 
 
@@ -426,21 +431,26 @@ main {
     display: flex;
     justify-content: center;
     max-width: 100%;
-    margin: auto;    /* Add margin for better spacing */
-    overflow-x: auto;     /* Add a horizontal scrolling bar for overflow */
+    margin: auto;
+    /* Add margin for better spacing */
+    overflow-x: auto;
+    /* Add a horizontal scrolling bar for overflow */
 }
 
 .insta-box {
     display: flex;
-    gap: 10px;    /* Adjust the gap as needed */
+    gap: 10px;
+    /* Adjust the gap as needed */
     max-width: 100%;
 }
 
 .insta-box img {
     max-width: 100%;
     max-height: 350px;
-    object-fit: cover;    /* Maintain aspect ratio and cover the container */
-    border: 1px solid #ccc;    /* Optional: Add a border for better visibility */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+    border: 1px solid #ccc;
+    /* Optional: Add a border for better visibility */
 }
 
 /*CSS FOR FOOTER*/
@@ -532,53 +542,55 @@ p {
         max-width: 250px;
         max-height: 250px;
     }
+
     .footer-column {
         flex: 1 0 100%;
-         /* Make columns take full width on smaller screens */
+        /* Make columns take full width on smaller screens */
     }
 }
-    /*Media query: tablets and larger (768px and up)*/
-    @media screen and (min-width: 768px) {
 
-        /*header*/
-        nav {
-            display: block;
-            position: relative;
-            box-shadow: none;
-            width: fit-content;
-            padding-right: 1rem;
-        }
+/*Media query: tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
 
-        #menu {
-            display: flex;
-        }
+    /*header*/
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
 
-        #menu>li {
-            padding-left: 1 rem;
-        }
+    #menu {
+        display: flex;
+    }
 
-        .nav-toggle-label {
-            display: none;
-        }
+    #menu>li {
+        padding-left: 1 rem;
+    }
 
-        #logo {
-            font-size: 280%;
-            line-height: 75px;
-            margin: 0 0.5rem;
-        }
-        
+    .nav-toggle-label {
+        display: none;
+    }
 
-        /*Main content*/
-        main {
-            /*push main content down to accomodate larger header*/
-            margin-top: 79px;
-        }
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
     }
 
 
-    /*Large devices (laptops and desktops. 992px and up)*/
-    @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 1px solid #3a3a3a;
-        }
+    /*Main content*/
+    main {
+        /*push main content down to accomodate larger header*/
+        margin-top: 79px;
     }
+}
+
+
+/*Large devices (laptops and desktops. 992px and up)*/
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+}
