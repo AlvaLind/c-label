@@ -98,7 +98,7 @@ main {
 }
 
 /* ORDER BUTTON */
-#button-container {
+.button-container {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #fff;
@@ -112,7 +112,7 @@ main {
 
 }
 
-#quote-button {
+.quote-button {
     padding: 20px;
     color: rgb(36, 39, 39);
     background-color: #c8d9ed;
@@ -120,7 +120,7 @@ main {
     /* Add a shadow to the button */
 }
 
-#quote-button:hover {
+.quote-button:hover {
     transform: scale(1.1);
 }
 
