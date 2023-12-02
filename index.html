@@ -155,18 +155,27 @@
         </div>
         </section>
 
-        <h2 id="insta-head">As Seen On Instagram</h2>
-        <br>
-        <!--Photo Carousel-->
-        <div id="carousel">
-            <img src="/assets/images/image-1.jpg" alt="image 1" id="image">
-            <img src="/assets/images/image4.jpg" alt="image 2" id="image">
-            <img src="/assets/images/image5.jpg" alt="image 3" id="image">
-            <img src="/assets/images/image7.jpg" alt="image 5" id="image">
-            <img src="/assets/images/image8.jpg" alt="image 6" id="image">
+        <div id="button-container">
+            <a href="order-now.html">
+                <button id="quote-button">
+                    <h4>Design Your Bag Now</h4>
+                </button>
+            </a>
         </div>
 
-
+        <h2 id="insta-head">As Seen On Instagram</h2>
+        <br>
+        <!--AS SEEN ON INSTAGRAM-->
+        <div class="seen-on-ig">
+            <div class="insta-box">
+                <img src="../assets/images/image5.jpg" alt="Image 1">
+                <img src="../assets/images/image7.jpg" alt="Image 2">
+                <img src="../assets/images/image8.jpg" alt="Image 3">
+                <img src="../assets/images/image6.jpg" alt="Image 4">
+                <img src="../assets/images/image9.jpg" alt="Image 5">
+                <img src="../assets/images/image-1.jpg" alt="Image 6">
+            </div>
+        </div>
 
     </body>
 
@@ -187,13 +196,16 @@
                 <p>Uppsala, Sweden</p>
             </div>
            
-            <div class="footer-column">
-                <h3>Sign up for Newsletter</h3>
-                <p>For the latest on sales, new releases and more</p>
-                <div class="newsletter-signup">
-                    <input type="email" placeholder="Enter your email">
-                    <button type="submit">></button>
-                </div>
+            <form method="POST" action="https://formdump.codeinstitute.net">
+                <div class="footer-column">
+                    <h3>Sign up for Newsletter</h3>
+                    <p>For the latest on sales, new releases and more</p>
+                    <div class="newsletter-signup">
+                        <input type="email" placeholder="Enter your email" name="email_address" id="email_address"
+                            class="text-input" required />
+                    </div>
+                    <button type="submit" class="subscribe">Subscribe</button>
+            </form>
                 <ul id="social-networks">
                     <li>
                         <a href="https://www.facebook.com" target="_blank" rel="noopener"

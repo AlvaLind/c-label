@@ -147,13 +147,15 @@
           <p>Uppsala, Sweden</p>
         </div>
 
-        <div class="footer-column">
-          <h3>Sign up for Newsletter</h3>
-          <p>For the latest on sales, new releases and more</p>
-          <div class="newsletter-signup">
-            <input type="email" placeholder="Enter your email" />
-            <button type="submit">></button>
-          </div>
+        <form method="POST" action="https://formdump.codeinstitute.net">
+            <div class="footer-column">
+            <h3>Sign up for Newsletter</h3>
+             <p>For the latest on sales, new releases and more</p>
+            <div class="newsletter-signup">
+            <input type="email" placeholder="Enter your email" name="email_address" id="email_address" class="text-input" required/>
+            </div>
+            <button type="submit" class="subscribe">Subscribe</button>
+        </form>
           <ul id="social-networks">
             <li>
               <a
