@@ -24,12 +24,13 @@ Features
   <ul>
       <li>The Header
       <ul>
-        <li>The Header shows the comapnys logo</li>
+        <li>The Header shows the comapanys logo</li>
       </ul>
       </li>
     </ul>
-    
-      ![Screenshot 2023-12-02 121925](https://github.com/AlvaLind/portfolio-1/assets/146857078/1173621c-7716-4db9-b2d6-5448684fa665)
+
+    ![Screenshot 2023-12-02 121925](https://github.com/AlvaLind/portfolio-1/assets/146857078/a2c0648c-31aa-4183-806a-c8e3b5b2c2fa)
+
 
   <ul>
       <li>Information 
@@ -129,7 +130,43 @@ Bugs
   </li>
 </ul>
 
+Validator Testing
 
+<ul>
+  <li>HTML
+  <ul>
+    <li>Accessability</li>
+  </ul>
+  </li>
+</ul>
+
+![Screenshot 2023-12-02 130030](https://github.com/AlvaLind/portfolio-1/assets/146857078/50ebbf60-4fc7-4806-84e1-a5f33197b8bb)
+
+
+Deployment
+
+<ul>
+  <li>The Site was deployed to GitHub pages. The steps to deploy are as follows:
+  <ul>
+    <li>In the GitHub repository, navigate to the settings tab</li>
+    <li>From the source section drop down menu, select the master Branch</li>
+    <li>Once the master branch has been selected, the page provided the link to the complete website</li>
+  </ul>
+  </li>
+</ul>
+You can find the link here: https://alvalind.github.io/portfolio-1/index.html
+
+Credits
+
+<ul>
+  <li>The code to create the social media tags, the rounded images and nav bar was taken from the Love Running Project</li>
+</ul>
+
+Media 
+
+<ul>
+  <li>The mimages was taken from the c.label instagram (https://www.instagram.com/c.label.official/?igshid=YTQwZjQ0NmI0OA%3D%3D&fbclid=IwAR3Hqsv79nl7vqH7BNyPtXG84DsS2kfglIhfq1Lv4tfBebgjkKWcGjQNekc) or was directely sent to me.</li>
+</ul>
 
 
 
