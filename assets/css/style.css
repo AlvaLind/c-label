@@ -306,9 +306,6 @@ hr {
     justify-content: flex-end;
 }
 
-/*photo carousel*/
-
-
 /*Order Now*/
 main {
     flex: 1 0 auto;
@@ -386,6 +383,14 @@ main {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+}
+
+#about-title{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #about-clabel {

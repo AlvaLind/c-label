@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--metatags for search engines-->
     <meta
       name="description"
       content="handbags, crocheting, handmade bags, personalised bags"
-    />
+    >
     <meta
       name="keywords"
       content="personalised handbags, handbags, crocheting, bags, bag, knitting, small business, handmade"
-    />
+    >
     <!--TITLE-->
     <title>C LABEL</title>
     <!--FAVICON-->
@@ -20,22 +20,22 @@
       rel="apple-touch-icon"
       sizes="180x180"
       href="assets/favicon1/apple-touch-icon.png"
-    />
+    >
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="assets/favicon1/favicon-32x32.png"
-    />
+    >
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
       href="assets/favicon1/favicon-16x16.png"
-    />
-    <link rel="manifest" href="assets/favicon1/site.webmanifest" />
+    >
+    <link rel="manifest" href="assets/favicon1/site.webmanifest">
     <!--stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
   </head>
 
   <body>
@@ -43,7 +43,7 @@
       <a href="index.html">
         <h1 id="logo">C label</h1>
       </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
       <label for="nav-toggle" class="nav-toggle-label"
         ><i class="fa-solid fa-bars"></i
       ></label>
@@ -58,7 +58,7 @@
     <!--FORM-->
     <main id="main-quote">
       <h2 id="order-now-heading">Get Your Quote Now</h2>
-      <section id="get-a-quote">
+      <div id="get-a-quote">
         <form
           id="get-a-quote-form"
           method="POST"
@@ -73,8 +73,8 @@
             id="full_name"
             class="text-input"
             required
-          />
-          <br />
+          >
+          <br>
           <label for="address"
             ><i class="fa-solid fa-location-pin"></i> Address</label
           >
@@ -84,17 +84,17 @@
             id="address"
             class="text-input"
             required
-          />
+          >
           <br>
           <label for="email_address"><i class="fa-regular fa-envelope"></i> Email Address</label>
           <input
             type="email"
             name="email_address"
-            id="email_address"
+            id="email_address2"
             class="text-input"
             required
-          />
-        <br />
+          >
+        <br>
 
           <!--SELECT COLOUR OPTION-->
         <label for="color">
@@ -127,66 +127,57 @@
           <!--SUBMIT BUTTON-->
           <button type="submit" class="order-button">Submit your order!</button>
         </form>
-      </section>
+    </div>
     </main>
 
     <footer>
-      <div class="footer-container">
-        <div class="footer-column">
-          <h3>Contact Us</h3>
-          <p>Email: info@c-label.com</p>
-          <p>Call: +4601 234 567</p>
-          <p>Open Hours: 7am - 5pm</p>
-          <p>Mon - Fri</p>
-        </div>
-
-        <div class="footer-column">
-          <h3>Visit Us</h3>
-          <p>Gothenburg, Sweden</p>
-          <p>Stockholm, Sweden</p>
-          <p>Uppsala, Sweden</p>
-        </div>
-
-        <form method="POST" action="https://formdump.codeinstitute.net">
+        <div class="footer-container">
             <div class="footer-column">
-            <h3>Sign up for Newsletter</h3>
-             <p>For the latest on sales, new releases and more</p>
-            <div class="newsletter-signup">
-            <input type="email" placeholder="Enter your email" name="email_address" id="email_address" class="text-input" required/>
+                <h3>Contact Us</h3>
+                <p>Email: info@c-label.com</p>
+                <p>Call: +4601 234 567</p>
+                <p>Open Hours: 7am - 5pm</p>
+                <p>Mon - Fri</p>
             </div>
-            <button type="submit" class="subscribe">Subscribe</button>
-        </form>
-          <ul id="social-networks">
-            <li>
-              <a
-                href="https://www.facebook.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)"
-                ><i class="fa-brands fa-facebook-f"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/c.label.official/?igshid=YTQwZjQ0NmI0OA%3D%3D&fbclid=IwAR3Hqsv79nl7vqH7BNyPtXG84DsS2kfglIhfq1Lv4tfBebgjkKWcGjQNekc"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.twitter.com"
-                target="_blank"
-                rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)"
-                ><i class="fa-brands fa-twitter"></i
-              ></a>
-            </li>
-          </ul>
+
+            <div class="footer-column">
+                <h3>Visit Us</h3>
+                <p>Gothenburg, Sweden</p>
+                <p>Stockholm, Sweden</p>
+                <p>Uppsala, Sweden</p>
+            </div>
+
+            <div class="footer-column">
+                <form method="POST" action="https://formdump.codeinstitute.net">
+                    <div class="newsletter">
+                        <h3>Sign up for Newsletter</h3>
+                        <p>For the latest on sales, new releases and more</p>
+                        <div class="newsletter-signup">
+                            <input type="email" placeholder="Enter your email" name="email_address" id="email_address"
+                                class="text-input" required>
+                        </div>
+                        <button type="submit" class="subscribe">Subscribe</button>
+                    </div>
+                </form>
+                <ul id="social-networks">
+                    <li>
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/c.label.official/?igshid=YTQwZjQ0NmI0OA%3D%3D&fbclid=IwAR3Hqsv79nl7vqH7BNyPtXG84DsS2kfglIhfq1Lv4tfBebgjkKWcGjQNekc"
+                            target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com" target="_blank" rel="noopener"
+                            aria-label="Visit our Twitter page (opens in a new tab)"><i
+                                class="fa-brands fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </footer>
 
     <!--Font Awesome kit-->
