@@ -1,9 +1,13 @@
-C-LABEL
+# C-LABEL 
 
-The C-LABEL website is a website for customers of the bag company C-Label. 
-On this webiste users can get information about the company and the bags that the company offer. You can also design your own bag in the form to get a quote. There's also the option to sign up for the newsletter down in the footer so users can get information about new drops and sales. The website is targeted towards customers and people who is interested in the brand C-Label.
+The C-LABEL website is your one-stop destination for all things related to C-Label bags. 
+Discover more about the brand, including what sets their bags apart, and explore the diverse range of products on offer. 
+With our user-friendly form, you can easily design your own bag and receive a personalized price quote. 
+Plus, don't forget to sign up for our newsletter at the bottom of the page to stay in the loop about new bag releases and sales.
+Whether you're a fashion enthusiast or simply curious about C-Label, our website caters to anyone with a love for stylish bags and quality craftsmanship.
 
 ![image](https://github.com/AlvaLind/portfolio-1/assets/146857078/6db83053-ef34-45e6-983d-c9e3d05e602c)
+
 
 ## Features
 1. **Navigation**
@@ -15,24 +19,20 @@ On this webiste users can get information about the company and the bags that th
   ![Screenshot 2023-12-02 121705](https://github.com/AlvaLind/portfolio-1/assets/146857078/244a96b9-5c71-473d-985b-e2822a5b9748)
   ![Screenshot 2023-12-02 121735](https://github.com/AlvaLind/portfolio-1/assets/146857078/eff81857-95e4-4ea0-ad53-863532627230)
 
-
 2. **Header**
   * Displays the company's logo for brand recognition.
 
   ![Screenshot 2023-12-02 121925](https://github.com/AlvaLind/portfolio-1/assets/146857078/a2c0648c-31aa-4183-806a-c8e3b5b2c2fa)
-
 
 3. **Information** 
   * Details about the bag manufacturing process, yarn used, and available styles displayed for transparency and authenticity.
   
   ![Screenshot 2023-12-02 122236](https://github.com/AlvaLind/portfolio-1/assets/146857078/30fb5a4f-eb49-46ca-a24d-bbfe0ffa6209)
 
-
 4. **Buttons**
   * Multiple 'Order Now' buttons direct users to the order form to facilitate easy ordering and prompt users to take action.
 
   ![Screenshot 2023-12-02 122419](https://github.com/AlvaLind/portfolio-1/assets/146857078/c0c70047-c144-421a-b8ad-82e58b25cd0b)
-
 
 5. **As Seen on Instagram** 
   * Showcase of bag photos from Instagram to highlight the products.
@@ -41,7 +41,6 @@ On this webiste users can get information about the company and the bags that th
 
   https://8000-alvalind-portfolio-1-h1d79t489t.us2.codeanyapp.com/
 
-
 6. **Order Now Form**
   * Allows users to customize and order their desired bag style and color.
   * The form collects the full name, address, email and the style preferences.
@@ -49,13 +48,11 @@ On this webiste users can get information about the company and the bags that th
     
   ![Screenshot 2023-12-02 123207](https://github.com/AlvaLind/portfolio-1/assets/146857078/54c4b609-d456-42f1-b442-b877b8bc0ffe)
 
-
 7. **About Us**
   * This site gives the users some more information about the company.
   * We introduce the founder of the company with a brief summary and an image.
   
   ![Screenshot 2023-12-02 124028](https://github.com/AlvaLind/portfolio-1/assets/146857078/3071d37b-01fc-48cc-8b7b-f6c2368ce63c)
-
 
 8. **Footer**
   * The footer contains company contact info including their email, mobile number, openingtimes and address.
