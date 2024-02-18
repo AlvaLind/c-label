@@ -11,7 +11,7 @@ Whether you're a fashion enthusiast or simply curious about C-Label, our website
 
 ## User Stories 
 
-###First Time Visitor Goals 
+### First Time Visitor Goals 
 
   * Understanding the Main Purpose
   As a first-time visitor, I want to easily grasp the main purpose of the site so I can learn more about the organization and what it offers.
@@ -36,7 +36,7 @@ Whether you're a fashion enthusiast or simply curious about C-Label, our website
 
 
 ## Features
-1. **Navigation**
+### 1. Navigation
   * Featured at the top of the page, the navigation shows the brand name in the top left corner and links to the home page
   * The other navigation links are placed to the right: Home, Order Now and About Us. These links to other sites of the website. 
   * The navigation is clear about the companys name and where to click to find more info.
@@ -45,42 +45,42 @@ Whether you're a fashion enthusiast or simply curious about C-Label, our website
   ![Screenshot 2023-12-02 121705](https://github.com/AlvaLind/portfolio-1/assets/146857078/244a96b9-5c71-473d-985b-e2822a5b9748)
   ![Screenshot 2023-12-02 121735](https://github.com/AlvaLind/portfolio-1/assets/146857078/eff81857-95e4-4ea0-ad53-863532627230)
 
-2. **Header**
+### 2. Header
   * Displays the company's logo for brand recognition.
 
   ![Screenshot 2023-12-02 121925](https://github.com/AlvaLind/portfolio-1/assets/146857078/a2c0648c-31aa-4183-806a-c8e3b5b2c2fa)
 
-3. **Information** 
+### 3. Information
   * Details about the bag manufacturing process, yarn used, and available styles displayed for transparency and authenticity.
   
   ![Screenshot 2023-12-02 122236](https://github.com/AlvaLind/portfolio-1/assets/146857078/30fb5a4f-eb49-46ca-a24d-bbfe0ffa6209)
 
-4. **Buttons**
+### 4. Buttons
   * Multiple 'Order Now' buttons direct users to the order form to facilitate easy ordering and prompt users to take action.
 
   ![Screenshot 2023-12-02 122419](https://github.com/AlvaLind/portfolio-1/assets/146857078/c0c70047-c144-421a-b8ad-82e58b25cd0b)
 
-5. **As Seen on Instagram** 
+### 5. As Seen on Instagram
   * Showcase of bag photos from Instagram to highlight the products.
     
   ![Screenshot 2023-12-02 122631](https://github.com/AlvaLind/portfolio-1/assets/146857078/1ae8f82c-c265-460c-b6cb-2d49aba04166)
 
   https://8000-alvalind-portfolio-1-h1d79t489t.us2.codeanyapp.com/
 
-6. **Order Now Form**
+### 6. Order Now Form
   * Allows users to customize and order their desired bag style and color.
   * The form collects the full name, address, email and the style preferences.
   * The form is valuable to the company so they can process orders and track customer engagement.
     
   ![Screenshot 2023-12-02 123207](https://github.com/AlvaLind/portfolio-1/assets/146857078/54c4b609-d456-42f1-b442-b877b8bc0ffe)
 
-7. **About Us**
+### 7. About Us
   * This site gives the users some more information about the company.
   * We introduce the founder of the company with a brief summary and an image.
   
   ![Screenshot 2023-12-02 124028](https://github.com/AlvaLind/portfolio-1/assets/146857078/3071d37b-01fc-48cc-8b7b-f6c2368ce63c)
 
-8. **Footer**
+### 8. Footer
   * The footer contains company contact info including their email, mobile number, openingtimes and address.
   * Users can sign up for a newsletter in the footer by inputting their email address.
   * Contains links to social media platforms including instagram, facebook and twitter (X).
