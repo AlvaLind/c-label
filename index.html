@@ -30,7 +30,6 @@
         <link rel="manifest" href="assets/favicon1/site.webmanifest">
         <!--stylesheet-->
         <link rel="stylesheet" href="assets/css/style.css">
-       
     </head>
     <body>
         <header>
@@ -38,9 +37,9 @@
             <h1 id="logo">C label</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"
-            ><i class="fa-solid fa-bars"></i
-        ></label>
+        <label for="nav-toggle" class="nav-toggle-label"aria-label="navigation toggle">
+            <i class="fa-solid fa-bars"></i>
+        </label>
         <nav>
             <ul id="menu">
             <li><a href="index.html" class="active">Home</a></li>
@@ -56,7 +55,7 @@
         <!--Made your way sections-->
         <section id="personalised">
 
-            <!-- <a href="order-now.html" id="order-now-button"><button>click here to order your bag now!</button></a> -->
+<!-- <a href="order-now.html" id="order-now-button"><button>click here to order your bag now!</button></a> -->
             
             <div class="button-container">
                 <a href="order-now.html">
@@ -77,13 +76,13 @@
                     </div>
                 </div>
                 <div id="handcrafted-image">
-                    <div id="circle-cover-bg-1" img="/images/"></div>
+                    <div id="circle-cover-bg-1" img="/images/" aria-label="Handcrafted bag"></div>
                 </div>
             </div>
 
             <div id="yarn-container">
                 <div id="yarn-image">
-                    <div id="circle-cover-bg-2"></div>
+                    <div id="circle-cover-bg-2" aria-label="Yarn for crocheting"></div>
                 </div>
 
                 <div id="personalised-high-quality-thread">
@@ -143,7 +142,7 @@
                 </div>
             
                 <div id="style-image">
-                    <div id="circle-cover-bg-3"></div>
+                    <div id="circle-cover-bg-3" aria-label="Customisable bag styles"></div>
                 </div>
             </div>
         </section>
@@ -158,13 +157,13 @@
         <br>
         <!--AS SEEN ON INSTAGRAM-->
         <div class="seen-on-ig">
-            <div class="insta-box">
-                <img src="../assets/images/image5.jpg" alt="Image 1">
-                <img src="../assets/images/image7.jpg" alt="Image 2">
-                <img src="../assets/images/image8.jpg" alt="Image 3">
-                <img src="../assets/images/image6.jpg" alt="Image 4">
-                <img src="../assets/images/image9.jpg" alt="Image 5">
-                <img src="../assets/images/image-1.jpg" alt="Image 6">
+            <div class="insta-box" aria-label="As Seen On Instagram">
+                <img src="assets/images/image5.jpg" alt="Image 1">
+                <img src="assets/images/image7.jpg" alt="Image 2">
+                <img src="assets/images/image8.jpg" alt="Image 3">
+                <img src="assets/images/image6.jpg" alt="Image 4">
+                <img src="assets/images/image9.jpg" alt="Image 5">
+                <img src="assets/images/image-1.jpg" alt="Image 6">
             </div>
         </div>
 
@@ -195,7 +194,7 @@
                             <input type="email" placeholder="Enter your email" name="email_address" id="email_address"
                                 class="text-input" required>
                         </div>
-                        <button type="submit" class="subscribe">Subscribe</button>
+                        <button type="submit" class="subscribe" aria-label="Subscribe">Subscribe</button>
                     </div>
                 </form>
                 <ul id="social-networks">
