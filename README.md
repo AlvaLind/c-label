@@ -9,6 +9,32 @@ Whether you're a fashion enthusiast or simply curious about C-Label, our website
 ![image](https://github.com/AlvaLind/portfolio-1/assets/146857078/6db83053-ef34-45e6-983d-c9e3d05e602c)
 
 
+## User Stories 
+
+###First Time Visitor Goals 
+
+  * Understanding the Main Purpose
+  As a first-time visitor, I want to easily grasp the main purpose of the site so I can learn more about the organization and what it offers.
+
+  * Navigating the Website
+  As a first-time visitor, I expect to find it easy to navigate through the website, allowing me to locate the content I'm interested in without any hassle.
+
+  * Viewing Real-World Proof
+  As a first-time visitor, I anticipate the inclusion of images showcasing C-LABEL bags, providing me with tangible real-world proof of the products in action and helping me visualize their quality and appeal.
+
+
+### Returning Visitor Goals 
+
+  * Enhanced User Experience
+  As a returning customer, I expect the website to provide me with an enhanced user experience, ensuring smooth navigation, intuitive interface elements, and easy access to the information I need, making my browsing experience seamless and enjoyable.
+
+  * Responsive Design and Accessibility
+  As a returning customer, it's important to me that the website is responsive and accessible across different devices and screen sizes. Whether I'm browsing on my desktop, tablet, or smartphone, I expect the website to adapt smoothly, allowing me to engage with it effortlessly from anywhere.
+
+  * Consistent Branding and Visual Identity
+  As a returning customer, I look for consistency in branding and visual identity throughout the website. Seeing familiar design elements, colour palette and branding reassures me, strengthening my trust and connection with the brand.
+
+
 ## Features
 1. **Navigation**
   * Featured at the top of the page, the navigation shows the brand name in the top left corner and links to the home page
