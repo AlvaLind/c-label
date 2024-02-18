@@ -44,15 +44,16 @@
         <h1 id="logo">C label</h1>
       </a>
       <input type="checkbox" id="nav-toggle" name="nav-toggle">
-      <label for="nav-toggle" class="nav-toggle-label"
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle Navigation"
         ><i class="fa-solid fa-bars"></i
       ></label>
       <nav>
         <ul id="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="order-now.html" class="active">Order Now</a></li>
-          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="index.html" aria-label="Go to Home Page">Home</a></li>
+          <li><a href="order-now.html" class="active" aria-label="Go to Order Now Page">Order Now</a></li>
+          <li><a href="about-us.html" aria-label="Go to About Us Page">About Us</a></li>
         </ul>
+
       </nav>
     </header>
     <!--FORM-->
@@ -64,7 +65,7 @@
           method="POST"
           action="https://formdump.codeinstitute.net"
         >
-          <label for="full_name"
+          <label for="full_name" aria-label="Add your Full Name"
             ><i class="fa-regular fa-user"></i> Full Name</label
           >
           <input
@@ -75,7 +76,7 @@
             required
           >
           <br>
-          <label for="address"
+          <label for="address" aria-label="Add your Address"
             ><i class="fa-solid fa-location-pin"></i> Address</label
           >
           <input
@@ -86,7 +87,7 @@
             required
           >
           <br>
-          <label for="email_address"><i class="fa-regular fa-envelope"></i> Email Address</label>
+          <label for="email_address" aria-label="Add your Email Address"><i class="fa-regular fa-envelope"></i> Email Address</label>
           <input
             type="email"
             name="email_address"
@@ -97,7 +98,7 @@
         <br>
 
           <!--SELECT COLOUR OPTION-->
-        <label for="color">
+        <label for="color" aria-label="Select a colour for your bag">
         <i class="fa-solid fa-palette"></i> Choose a Color</label>
         <select id="color" name="color">
             <option value="red">Red</option>
@@ -115,7 +116,7 @@
         <br>
         <br>
         <!--SELECT STYLE OPTION-->
-        <label for="style"> <i class="fa-solid fa-bag-shopping"></i> Choose a Style</label>
+        <label for="style" aria-label="Select a Style for your bag"> <i class="fa-solid fa-bag-shopping"></i> Choose a Style</label>
         <select id="style" name="style">
             <option value="Celia">Celia Bag</option>
             <option value="Cara">Cara Bag</option>
@@ -125,7 +126,7 @@
         <br>
 
           <!--SUBMIT BUTTON-->
-          <button type="submit" class="order-button">Submit your order!</button>
+          <button type="submit" class="order-button" aria-label="Submit your order">Submit your order!</button>
         </form>
     </div>
     </main>
@@ -154,9 +155,9 @@
                         <p>For the latest on sales, new releases and more</p>
                         <div class="newsletter-signup">
                             <input type="email" placeholder="Enter your email" name="email_address" id="email_address"
-                                class="text-input" required>
+                                class="text-input" required aria-label="Enter your email address">
                         </div>
-                        <button type="submit" class="subscribe">Subscribe</button>
+                        <button type="submit" class="subscribe" aria-label="Subscribe">Subscribe</button>
                     </div>
                 </form>
                 <ul id="social-networks">
