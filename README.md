@@ -65,7 +65,7 @@ Whether you're a fashion enthusiast or simply curious about C-Label, our website
 ### 5. As Seen on Instagram
   * Showcase of bag photos from Instagram to highlight the products.
     
-  ![Screenshot 2023-12-02 122631](https://github.com/AlvaLind/portfolio-1/assets/146857078/1ae8f82c-c265-460c-b6cb-2d49aba04166)
+  ![seen on instagram section](documentation/seen-on-instagram.png)
 
   https://8000-alvalind-portfolio-1-h1d79t489t.us2.codeanyapp.com/
 
