@@ -148,14 +148,17 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 * The image path to the images in the section "As seen on instagram" did not work. Fixed this issue with the code below:
 
 ```
- <div class="seen-on-ig">
+<div class="seen-on-ig">
             <div class="insta-box" aria-label="As Seen On Instagram">
-                <img src="assets/images/image5.jpg" alt="Blue crocheted bag">
+                <img src="assets/images/green-bag.jpg" alt="Green crocheted bag in the snow">
+                <img src="assets/images/blue-purple.jpg" alt="Blue and purple crocheted bag on model">
                 <img src="assets/images/image7.jpg" alt="Green crocheted bag at a restaurant ">
                 <img src="assets/images/image8.jpg" alt="Blue and Purple customised crocheted bag on model">
                 <img src="assets/images/image6.jpg" alt="Orange crocheted bag in a beach setting">
                 <img src="assets/images/image9.jpg" alt="Pink crocheted bag in the snow">
                 <img src="assets/images/image-1.jpg" alt="Orange crocheted bag on model">
+                <img src="assets/images/brown-bag.jpg" alt="Brown crocheted bag in the snow">
+                <img src="assets/images/image5.jpg" alt="Blue crocheted bag">
             </div>
         </div>
 ```
