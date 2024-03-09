@@ -110,15 +110,15 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 
 ![Color pallet](assets/images/documentation/colors.png)
 
-- Light Blue-Gray: 
+##### Light Blue-Gray: 
 * Creates a calming and soothing atmosphere. This soft, pastel blue-gray color can help evoke feelings of tranquility and relaxation.
 * Enhances readability: Light blue-gray backgrounds can provide good contrast for black or dark gray text, improving readability and reducing eye strain, especially for long periods of reading.
 
-- Charcoal Gray:
+#### Charcoal Gray:
 * Charcoal gray is a versatile color that adds a touch of sophistication and professionalism to a website design. 
 * Dark gray tones like charcoal gray are associated with minimalistic design aesthetics, providing a sleek and modern look to the C-label website.
 
-- Pure White 
+#### Pure White 
 * Pure white background to offer a clean and minimalist aesthetic, allowing other elements on the website to stand out prominently. It creates a sense of openness and spaciousness, making the content more visually appealing.
 * White backgrounds are often associated with clarity and simplicity, which can enhance the user experience by making the content easy to understand and navigate.
 
