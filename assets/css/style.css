@@ -428,14 +428,12 @@ main {
 }
 
 /* AS SEEN ON INSTAGRAM */
-#insta-head {
+.insta-head {
     display: flex;
     justify-content: center;
     align-content: center;
     padding-top: 50px;
 }
-
-
 
 
 .seen-on-ig {
