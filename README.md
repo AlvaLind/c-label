@@ -67,7 +67,7 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 ### 5. As Seen on Instagram
   * Showcase of bag photos from Instagram to highlight the products.
     
-  ![seen on instagram section](documentation/seen-on-instagram.png)
+  ![seen on instagram section](assets/images/documentation/seen-on-instagram.png)
 
   https://8000-alvalind-portfolio-1-h1d79t489t.us2.codeanyapp.com/
 
