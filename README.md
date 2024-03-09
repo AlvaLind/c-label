@@ -8,6 +8,8 @@ Plus, don't forget to sign up for our newsletter at the bottom of the page to st
 
 Whether you're a fashion enthusiast or simply curious about C-Label, our website caters to anyone with a love for stylish bags and quality craftsmanship.
 
+You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/index.html)
+
 ![image](https://github.com/AlvaLind/portfolio-1/assets/146857078/6db83053-ef34-45e6-983d-c9e3d05e602c)
 
 
@@ -90,6 +92,36 @@ Whether you're a fashion enthusiast or simply curious about C-Label, our website
   ![Screenshot 2023-12-02 124632](https://github.com/AlvaLind/portfolio-1/assets/146857078/e5f1081e-36d4-4997-911d-cb36fd1fdff5)
 
 
+## Technologies Used
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) was used as the foundation of the site.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/css) - was used to add the styles and layout of the site.
+* [CSS Flexbox](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox) - was used to arrange items simmetrically on the pages.
+* [Codeanywhere](https://codeanywhere.com/) was used as a tool to write and edit code.
+* [Gitpod](https://www.gitpod.io/) was used as a tool to write and edit code.
+* [VSCode](https://code.visualstudio.com/) was used as a tool to write and edit code.
+* [Git](https://git-scm.com/) was used for the version control of the website.
+* [GitHub](https://github.com/) was used to host the code of the website.
+
+
+## Design
+
+### Color Scheme
+
+![Color pallet](assets/images/documentation/colors.png)
+
+- Light Blue-Gray: 
+* Creates a calming and soothing atmosphere. This soft, pastel blue-gray color can help evoke feelings of tranquility and relaxation.
+* Enhances readability: Light blue-gray backgrounds can provide good contrast for black or dark gray text, improving readability and reducing eye strain, especially for long periods of reading.
+
+- Charcoal Gray:
+* Charcoal gray is a versatile color that adds a touch of sophistication and professionalism to a website design. 
+* Dark gray tones like charcoal gray are associated with minimalistic design aesthetics, providing a sleek and modern look to the C-label website.
+
+- Pure White 
+* Pure white background to offer a clean and minimalist aesthetic, allowing other elements on the website to stand out prominently. It creates a sense of openness and spaciousness, making the content more visually appealing.
+* White backgrounds are often associated with clarity and simplicity, which can enhance the user experience by making the content easy to understand and navigate.
+
 ## Testing
 
 * Tested on Chrome and Safari browsers.
@@ -118,19 +150,22 @@ The website was deployed to GitHub Pages using the following steps:
 1. Navigate to the repository settings on GitHub.
 2. Select the master branch as the source for deployment.
 3. GitHub Pages provides the link to the live website.
-You can find the link here: https://alvalind.github.io/portfolio-1/index.html
+
+You can find the link [HERE](https://alvalind.github.io/portfolio-1/index.html)
+
+---
+
+## Media
+
+* Images sourced from [C-LABEL's Instagram](https://www.instagram.com/c.label.official/?fbclid=IwAR0_ka0oAO2U3r5T0hquE9ZA7WgwrPMCQbpY09gqw0nXquhB6mfdIzxwAcU) or provided directly by Cecilia Nilsson who is the owner of C-label.
 
 
 ## Credits
 
+*  Cecilia Nilsson for providing me with the content for the website.
 * Social media tags, rounded images, and nav bar code sourced from the Love Running Project.
 
 
-## Media
+## Acknowledgments
 
-* Images sourced from C-LABEL's Instagram or provided directly.
-  <li>The images were taken from the C.label instagram (https://www.instagram.com/c.label.official/?igshid=YTQwZjQ0NmI0OA%3D%3D&fbclid=IwAR3Hqsv79nl7vqH7BNyPtXG84DsS2kfglIhfq1Lv4tfBebgjkKWcGjQNekc) or directly provided via the business owner.</li>
-</ul>
-
-
-
+* A big thank you to Cecilia Nilsson, the owner of C-label.
