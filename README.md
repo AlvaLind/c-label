@@ -69,8 +69,6 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
     
   ![seen on instagram section](assets/images/documentation/seen-on-instagram.png)
 
-  https://8000-alvalind-portfolio-1-h1d79t489t.us2.codeanyapp.com/
-
 ### 6. Order Now Form
   * Allows users to customize and order their desired bag style and color.
   * The form collects the full name, address, email and the style preferences.
