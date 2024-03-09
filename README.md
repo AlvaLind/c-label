@@ -141,6 +141,26 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 ![Screenshot 2023-12-02 130030](https://github.com/AlvaLind/portfolio-1/assets/146857078/50ebbf60-4fc7-4806-84e1-a5f33197b8bb)
 
 
+## Bugs
+
+### Solved Bugs 
+
+* The image path to the images in the section "As seen on instagram" did not work. Fixed this issue with the code below:
+
+```
+ <div class="seen-on-ig">
+            <div class="insta-box" aria-label="As Seen On Instagram">
+                <img src="assets/images/image5.jpg" alt="Blue crocheted bag">
+                <img src="assets/images/image7.jpg" alt="Green crocheted bag at a restaurant ">
+                <img src="assets/images/image8.jpg" alt="Blue and Purple customised crocheted bag on model">
+                <img src="assets/images/image6.jpg" alt="Orange crocheted bag in a beach setting">
+                <img src="assets/images/image9.jpg" alt="Pink crocheted bag in the snow">
+                <img src="assets/images/image-1.jpg" alt="Orange crocheted bag on model">
+            </div>
+        </div>
+```
+* 
+
 ## Deployment
 
 The website was deployed to GitHub Pages using the following steps:
@@ -153,15 +173,15 @@ You can find the link [HERE](https://alvalind.github.io/portfolio-1/index.html)
 
 ---
 
-## Media
-
-* Images sourced from [C-LABEL's Instagram](https://www.instagram.com/c.label.official/?fbclid=IwAR0_ka0oAO2U3r5T0hquE9ZA7WgwrPMCQbpY09gqw0nXquhB6mfdIzxwAcU) or provided directly by Cecilia Nilsson who is the owner of C-label.
-
-
 ## Credits
 
-*  Cecilia Nilsson for providing me with the content for the website.
-* Social media tags, rounded images, and nav bar code sourced from the Love Running Project.
+#### Media and content:
+
+* Images sourced from [C-LABEL's Instagram](https://www.instagram.com/c.label.official/?fbclid=IwAR0_ka0oAO2U3r5T0hquE9ZA7WgwrPMCQbpY09gqw0nXquhB6mfdIzxwAcU) or provided directly by Cecilia Nilsson, the owner of C-label.
+
+#### Features:
+
+* Inspiration for social media tags, rounded images, and nav bar was sourced from the [Love Running Project, AJ Greaves (Code Institute)](https://github.com/Code-Institute-Org/love-running-2.0)
 
 
 ## Acknowledgments
