@@ -13,31 +13,31 @@
         <!--FAVICON-->
         <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon1/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon1/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16"href="assets/favicon1/favicon-16x16.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon1/favicon-16x16.png">
         <link rel="manifest" href="assets/favicon1/site.webmanifest">
         <!--stylesheet-->
         <link rel="stylesheet" href="assets/css/style.css">
     </head>
     <body>
         <header>
-            <a href="index.html">
-                <h1 id="logo">C label</h1>
-            </a>
-            <input type="checkbox" id="nav-toggle" name="nav-toggle">
-            <label for="nav-toggle" class="nav-toggle-label"aria-label="navigation toggle">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-            <nav>
-                <ul id="menu">
-                <li><a href="index.html" class="active" aria-label="Go to Home Page">Home</a></li>
-                <li><a href="order-now.html" aria-label="Go to Order Now Page">Order Now</a></li>
-                <li><a href="about-us.html" aria-label="Go to About Us Page">About Us</a></li>
-                </ul>
-            </nav>
-            </header>
+        <a href="index.html">
+            <h1 id="logo">C label</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"aria-label="navigation toggle">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+            <li><a href="index.html" class="active" aria-label="Go to Home Page">Home</a></li>
+            <li><a href="order-now.html" aria-label="Go to Order Now Page">Order Now</a></li>
+            <li><a href="about-us.html" aria-label="Go to About Us Page">About Us</a></li>
+            </ul>
+        </nav>
+        </header>
+
         <main>
-            <h1>Thank you so much for ordering with C-label!</h1>
-            <p>You will soon get a confirmation email with the details of your order.</p>
+            <h1>Thank you for signing up to our newsletter!</h1>
         </main>
     <footer>
         <div class="footer-container">
@@ -57,13 +57,13 @@
             </div>
     
             <div class="footer-column">
-                <form method="get" action="email-signup.html">
+                <form method="get" action="thanks.html">
                     <div class="newsletter">
                         <h3>Sign up for Newsletter</h3>
                         <p>For the latest on sales, new releases and more</p>
                         <div class="newsletter-signup">
                             <input type="email" placeholder="Enter your email" name="email_address" id="email_address"
-                                class="text-input" required>
+                                class="text-input" required aria-label="Enter your email address">
                         </div>
                         <button type="submit" class="subscribe" aria-label="Subscribe">Subscribe</button>
                     </div>
@@ -88,7 +88,9 @@
             </div>
         </div>
     </footer>
+
     <!--Font Awesome kit-->
     <script src="https://kit.fontawesome.com/1f343de018.js" crossorigin="anonymous"></script>
+
 </body>
 </html>
