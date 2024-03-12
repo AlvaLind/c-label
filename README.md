@@ -156,7 +156,7 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 
 * Email signup: 
 
-![HTML check - email signup](assets/images/documentation/)
+![HTML check - email signup](assets/images/documentation/html-validator-email.png)
 
 ### CSS Validator checks
 
