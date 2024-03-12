@@ -204,15 +204,17 @@ hr {
         margin-right: 0;
     }
 
-    #circle-cover-bg-1 {
-        background: url('../images/crocheting1.jpg') no-repeat top center / cover;
+#circle-cover-bg-1 {
         height: 60vw;
         width: 60vw;
         margin-bottom: 20px;
         border-radius: 80%;
         max-width: 200px;
         max-height: 200px;
+        /* Set background image using CSS */
+        background: url('/images/') no-repeat top center / cover;
     }
+    
 }
 
 
