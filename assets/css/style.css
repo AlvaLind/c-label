@@ -124,9 +124,7 @@ main {
     transform: scale(1.1);
 }
 
-
 /*Personalised (info) section*/
-
 #personalised {
     width: 90%;
     margin: 20px auto;
@@ -191,32 +189,16 @@ hr {
     /* Align to the right */
 }
 
-/*HANDMADE SECTION ON PHONE SCREEN SIZE <768px*/
-@media screen and (max-width: 768px) {
-    #handcrafted-container {
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-
-    #personalised-handcrafted,
-    #handcrafted-image {
-        margin-right: 0;
-    }
-
 #circle-cover-bg-1 {
-        height: 60vw;
-        width: 60vw;
-        margin-bottom: 20px;
-        border-radius: 80%;
-        max-width: 200px;
-        max-height: 200px;
-        /* Set background image using CSS */
-        background: url('/images/') no-repeat top center / cover;
-    }
-    
+    background: url('../images/crocheting1.jpg') no-repeat top center / cover;
+    height: 60vw;
+    width: 60vw;
+    margin-bottom: 20px;
+    border-radius: 80%;
+    max-width: 200px;
+    max-height: 200px;
+/* Set background image using CSS */
 }
-
 
 /*YARN SECTION*/
 #circle-cover-bg-2 {
@@ -246,36 +228,6 @@ hr {
     flex: 2;
     padding-top: 30px;
 }
-
-/*YARN SECTION ON PHONE SCREENS <768px*/
-@media screen and (max-width: 768px) {
-    #yarn-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #yarn-image {
-        text-align: center;
-        margin-top: 20px;
-        order: 2;
-        /* Makes the image appear below the text */
-    }
-
-    #personalised-high-quality-thread {
-        text-align: center;
-    }
-
-    #circle-cover-bg-2 {
-        background: url('../images/yarn2.jpg') no-repeat top center / cover;
-        height: 60vw;
-        width: 60vw;
-        margin-bottom: 20px;
-        border-radius: 80%;
-        max-width: 200px;
-        max-height: 200px;
-    }
-}
-
 
 /*STYLE SECTION*/
 #circle-cover-bg-3 {
@@ -311,8 +263,6 @@ hr {
 #personalised-style li{
     padding-bottom: 20px;
 }
-
-
 
 /*Order Now*/
 main {
@@ -388,7 +338,6 @@ main {
 .about-us-image {
     flex: 2;
     padding-top: 30px;
-    flex: 1;
     display: flex;
     justify-content: flex-end;
 }
@@ -437,7 +386,6 @@ main {
     padding-top: 50px;
 }
 
-
 .seen-on-ig {
     display: flex;
     justify-content: center;
@@ -465,7 +413,6 @@ main {
 }
 
 /*CSS FOR FOOTER*/
-
 footer {
     background-color: #3a3a3a;
     color: white;
@@ -532,31 +479,58 @@ p {
     color: white;
 }
 
-/* STYLE SECTION ON PHONE SCREEN <768px */
+
 @media screen and (max-width: 768px) {
-    #style-container {
+    #handcrafted-container {
         flex-direction: column;
         text-align: center;
+        align-items: center;
     }
 
-    #style-image {
+    #personalised-handcrafted,
+    #handcrafted-image,
+    #personalised-high-quality-thread,
+    #personalised-style {
+        margin-right: 0;
         text-align: center;
-        margin-top: 20px;
     }
 
-    #circle-cover-bg-3 {
-        background: url('../images/style1.jpg') no-repeat top center / cover;
+    #circle-cover-bg-1, #circle-cover-bg-2, #circle-cover-bg-3 {
+        background-size: cover;
         height: 60vw;
         width: 60vw;
         margin-bottom: 20px;
         border-radius: 80%;
+        max-width: 200px; /* Adjust this if necessary for different images */
+        max-height: 200px;
+    }
+
+    /* Ensure circle-cover-bg-3 retains its unique properties if needed */
+    #circle-cover-bg-3 {
         max-width: 250px;
         max-height: 250px;
     }
 
+    #yarn-container, #style-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #yarn-image, #style-image {
+        text-align: center;
+        margin-top: 20px;
+        order: 2; /* This ensures images come after the text */
+    }
+
+    #personalised-style li {
+        padding-bottom: 20px;
+    }
+
     .footer-column {
-        flex: 1 0 100%;
-        /* Make columns take full width on smaller screens */
+        flex: 1 0 100%; /* Make footer columns stack on top of each other */
     }
 }
 
@@ -585,7 +559,6 @@ p {
         line-height: 75px;
         margin: 0 0.5rem;
     }
-
 
     /*Main content*/
     main {
