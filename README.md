@@ -147,7 +147,14 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 
 * HTML: Passed accessibility checks in [lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1).
 
-![Screenshot 2023-12-02 130030](https://github.com/AlvaLind/portfolio-1/assets/146857078/50ebbf60-4fc7-4806-84e1-a5f33197b8bb)
+Startpage:
+![lighthouse start](assets/images/documentation/lighthouse-start.jpg)
+
+Order Now:
+![lighthouse order now](assets/images/documentation/lighthouse-order-now.jpg)
+
+About Us:
+![lighthouse about us](assets/images/documentation/lighthouse-about-us.jpg)
 
 ### Html Validator checks
 
