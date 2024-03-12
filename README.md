@@ -122,9 +122,17 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 
 ## Testing
 
-* Tested on Chrome and Safari browsers.
+* Tested on Chrome: 
+
+![Chrome testing](assets/images/documentation/chrome-testing.png)
+
+* Safari: 
+
+![Safari testing](assets/images/documentation/safari-testing.jpg)
+
+#### Other testing: 
+
 * Responsive design confirmed on various screen sizes.
-* All sections are readable and easy to understand.
 * Form and newsletter signup functionality tested on both small and large screens.
 
 
