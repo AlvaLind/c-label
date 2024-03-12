@@ -146,6 +146,8 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 
 ### Html Validator checks
 
+There was no errors for any of html files but there was however Warnings about my aria-labels. Since I added some of the images from my CSS file there was no image tag to add the aria-label to. 
+
 * Start:
 
 ![HTML check - start](assets/images/documentation/html-validator-start.png)
@@ -167,6 +169,8 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 ![HTML check - email signup](assets/images/documentation/html-validator-email.png)
 
 ### CSS Validator checks
+
+No errors or warnings was found in the CSS validator.
 
 * Start:
 
@@ -209,8 +213,11 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
             </div>
         </div>
 ```
-* Misused the `<br>` tag in the HTML. I solved this by replacing the `<br>` with CSS padding instead.
+* Misuse of the `<br>` tag in the HTML. I solved this by replacing the `<br>` with CSS padding instead.
 
+## Mistakes 
+
+I am aware that my commit messages are not up to standard. I am committed to significantly improving them for my next projects.
 
 ## Deployment
 
