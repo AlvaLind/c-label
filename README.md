@@ -152,7 +152,11 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 
 * Thank you: 
 
-![HTML check - thank you](assets/images/documentation/html-validator-order-now.png)
+![HTML check - thank you](assets/images/documentation/html-validator-thankyou.png)
+
+* Email signup: 
+
+![HTML check - email signup](assets/images/documentation/)
 
 ### CSS Validator checks
 
