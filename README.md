@@ -140,7 +140,7 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 
 * Start:
 
-Image
+![HTML check - start](assets/images/documentation/html-validator-start.png)
 
 * Oder Now:
 
@@ -148,11 +148,11 @@ Image
 
 * About us:
 
-image 
+![HTML check - about us](assets/images/documentation/html-validator-about-us%20(2).png)
 
 * Thank you: 
 
-image 
+![HTML check - thank you](assets/images/documentation/html-validator-order-now.png)
 
 ### CSS Validator checks
 
