@@ -106,11 +106,7 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 
 ### Color Scheme
 
-![Color pallet](assets/images/documentation/colors.png)
-
-##### Light Blue-Gray: 
-* Creates a calming and soothing atmosphere. This soft, pastel blue-gray color can help evoke feelings of tranquility and relaxation.
-* Enhances readability: Light blue-gray backgrounds can provide good contrast for black or dark gray text, improving readability and reducing eye strain, especially for long periods of reading.
+![Color pallet](assets/images/documentation/coolors-clabel.png)
 
 #### Charcoal Gray:
 * Charcoal gray is a versatile color that adds a touch of sophistication and professionalism to a website design. 
@@ -119,6 +115,15 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 #### Pure White 
 * Pure white background to offer a clean and minimalist aesthetic, allowing other elements on the website to stand out prominently. It creates a sense of openness and spaciousness, making the content more visually appealing.
 * White backgrounds are often associated with clarity and simplicity, which can enhance the user experience by making the content easy to understand and navigate.
+
+##### Light Blue-Gray: 
+* Creates a calming and soothing atmosphere. This soft, pastel blue-gray color can help evoke feelings of tranquility and relaxation.
+* Enhances readability: Light blue-gray backgrounds can provide good contrast for black or dark gray text, improving readability and reducing eye strain, especially for long periods of reading.
+
+#### Blush Pink
+
+* Blush Pink to giva a calming effect. The gentle, pastel shade can evoke feelings of calmness.
+* Its muted tone suggests subtlety and understated elegance
 
 ## Testing
 
