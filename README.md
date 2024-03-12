@@ -1,12 +1,12 @@
 # C-LABEL 
 
 The C-LABEL website is your one-stop destination for all things related to C-Label bags. 
-Discover more about the brand, including what sets their bags apart, and explore the diverse range of products on offer. 
+Discover more about the brand, including what sets their bags apart, and explore the diverse range of products on offer. The website is made to help C-label customers to engage with the brand and place their order for their own customized C-label bag!
 
 With our user-friendly form, you can easily design your own bag and receive a personalized price quote. 
-Plus, don't forget to sign up for our newsletter at the bottom of the page to stay in the loop about new bag releases and sales.
+Plus, don't forget to sign up for the newsletter to stay in the loop about new bag releases and sales.
 
-Whether you're a fashion enthusiast or simply curious about C-Label, our website caters to anyone with a love for stylish bags and quality craftsmanship.
+Whether you're a fashion enthusiast or simply curious about C-Label, the website caters to anyone with a love for stylish bags and quality craftsmanship.
 
 You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/index.html)
 
