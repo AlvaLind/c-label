@@ -127,7 +127,9 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 
 ## Testing
 
-* Tested on Chrome: 
+Compatibility. The website has been tested on the browsers: Chrome and Safari.
+
+* Chrome: 
 
 ![Chrome testing](assets/images/documentation/chrome-testing.png)
 
