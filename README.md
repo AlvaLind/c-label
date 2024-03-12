@@ -128,18 +128,53 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
 * Form and newsletter signup functionality tested on both small and large screens.
 
 
-## Bugs
-
-* Solved: Misuse of the `<br>` tag in the HTML, replaced with CSS padding.
-* Unsolved: Instagram photos not displaying in the deployed project.
-
-
 ## Validator Testing
 
-* HTML: Passed accessibility checks.
+### Lighthouse
+
+* HTML: Passed accessibility checks in [lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?pli=1).
 
 ![Screenshot 2023-12-02 130030](https://github.com/AlvaLind/portfolio-1/assets/146857078/50ebbf60-4fc7-4806-84e1-a5f33197b8bb)
 
+### Html Validator checks
+
+* Start:
+
+Image
+
+* Oder Now:
+
+![HTML check - order now](assets/images/documentation/html-validator-order-now.png)
+
+* About us:
+
+image 
+
+* Thank you: 
+
+image 
+
+### CSS Validator checks
+
+* Start:
+
+![CSS check - start](assets/images/documentation/css-validator1.png)
+
+* Order Now:
+
+![CSS check - order-now](assets/images/documentation/css-validator2.png)
+
+* About us:
+
+![CSS check - about us](assets/images/documentation/css-validator3.png)
+
+* Thank you: 
+
+![CSS check - thank you](assets/images/documentation/css-validator4.png)
+
+* Email signup:
+
+![CSS check - email signup](assets/images/documentation/css-validator5.png)
 
 ## Bugs
 
@@ -162,7 +197,8 @@ You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/inde
             </div>
         </div>
 ```
-* 
+* Misused the `<br>` tag in the HTML. I solved this by replacing the `<br>` with CSS padding instead.
+
 
 ## Deployment
 
