@@ -8,7 +8,7 @@ Plus, don't forget to sign up for the newsletter to stay in the loop about new b
 
 Whether you're a fashion enthusiast or simply curious about C-Label, the website caters to anyone with a love for stylish bags and quality craftsmanship.
 
-You can find C-labels website [HERE](https://alvalind.github.io/portfolio-1/index.html)
+You can find C-labels website [HERE](https://alvalind.github.io/c-label/)
 
 ![image](https://github.com/AlvaLind/portfolio-1/assets/146857078/6db83053-ef34-45e6-983d-c9e3d05e602c)
 
@@ -241,7 +241,7 @@ The website was deployed to GitHub Pages using the following steps:
 2. Select the master branch as the source for deployment.
 3. GitHub Pages provides the link to the live website.
 
-You can find the link [HERE](https://alvalind.github.io/portfolio-1/index.html)
+You can find the link [HERE](https://alvalind.github.io/c-label/)
 
 ---
 
